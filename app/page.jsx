@@ -24,7 +24,7 @@ const page = () => {
               <span className="text-accent">Yousha Shakeel</span>
             </h1>
             <Counter />
-            <p className="max-w-[650px] text-justify mb-9 text-white/80">
+            <p className="max-w-[650px] text-start mb-9 text-white/80">
               I am a passionate and self-driven Software Engineer with expertise
               in Frontend development or Backend development and a keen eye for
               UI/UX design. With hands-on experience in building scalable and

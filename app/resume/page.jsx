@@ -21,14 +21,13 @@ const about = {
     "I am a passionate and self-driven Software Engineer with expertise in Frontend development or Backend development and a keen eye for UI/UX design. With hands-on experience in building scalable and responsive web applications, I excel in utilizing modern frameworks and libraries. My goal is to create seamless, user-friendly experiences that blend functionality with aesthetics. I thrive in collaborative environments and continuously strive to learn and implement the latest technologies to deliver innovative solutions.",
   info: [
     { fieldName: "Name", fieldValue: "Yousha Shakeel" },
-    { fieldName: "Phone", fieldValue: "(+92) 315 2322 865" },
-    { fieldName: "Experience", fieldValue: "1+ Years" },
-    { fieldName: "Nationality", fieldValue: "Pakistani" },
-    { fieldName: "Freelance ", fieldValue: "Available" },
-    { fieldName: "Languages", fieldValue: "English, Urdu" },
-    { fieldName: "LinkedIn", fieldValue: "yousha shakeel" },
-    { fieldName: "GitHub", fieldValue: "Yousha2002" },
+    { fieldName: "Phone", fieldValue: "+923152322865" },
+    { fieldName: "Degree", fieldValue: "BSSE" },
+    { fieldName: "Graduate", fieldValue: "SSUET 2024" },
     { fieldName: "Email", fieldValue: "smyousha2002@gmail.com" },
+    { fieldName: "Experience", fieldValue: "1+ Years in Software Development" },
+    { fieldName: "Languages", fieldValue: "English, Urdu" },
+    { fieldName: "Freelance", fieldValue: "Available for Remote Projects" },
   ],
 };
 const experience = {
@@ -173,7 +172,7 @@ const page = () => {
               <TabsContent className="w-full" value="experience">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{experience.title}</h3>
-                  <p className=" text-justify text-white/60 mx-auto xl:mx-0">
+                  <p className="  text-white/60 mx-auto xl:mx-0">
                     {experience.description}
                   </p>
                   <ScrollArea className="h-[400px]">
@@ -203,7 +202,7 @@ const page = () => {
               <TabsContent className="w-full " value="education">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{education.title}</h3>
-                  <p className=" text-justify text-white/60 mx-auto xl:mx-0">
+                  <p className="  text-white/60 mx-auto xl:mx-0">
                     {education.description}
                   </p>
                   <ScrollArea className="h-[400px]">
@@ -239,7 +238,7 @@ const page = () => {
                 <div className="flex flex-col gap-[30px]">
                   <div className="flex flex-col gap-[30px] text-center xl:text-left">
                     <h3 className="text-4xl font-bold">{skills.title}</h3>
-                    <p className=" text-justify text-white/60 mx-auto xl:mx-0">
+                    <p className="  text-white/60 mx-auto xl:mx-0">
                       {skills.description}
                     </p>
                   </div>
@@ -283,7 +282,7 @@ const page = () => {
                 <div className="flex flex-col gap-[30px]">
                   <div className="flex flex-col gap-[30px] text-center xl:text-left">
                     <h3 className="text-4xl font-bold">{about.title}</h3>
-                    <p className=" text-justify text-white/60 mx-auto xl:mx-0">
+                    <p className="  text-white/60 mx-auto xl:mx-0">
                       {about.description}
                     </p>
                   </div>
@@ -293,7 +292,7 @@ const page = () => {
                         return (
                           <li
                             key={index}
-                            className="flex items-center justify-center xl:justify-start gap-4"
+                            className="flex items-center justify-start xl:justify-start gap-4"
                           >
                             <span className="text-white/60">
                               {item.fieldName}
